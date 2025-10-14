@@ -202,7 +202,7 @@ Go ahead in the cell below:
 
 ```
 
-Write, in the following code cell, a module called `Calendar`.
+Write, in the following code cell, a module called `MyCalendar`.
 
 In this module you:
 
