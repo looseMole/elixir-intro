@@ -98,7 +98,7 @@ Strings can be concatenated using the `<>` operator:
 "Hello"<>", World"
 ```
 
-But we can also compose them using exising names and expressions:
+But we can also compose them using existing names and expressions:
 
 ```elixir
 "A circle with radius #{r} has the area #{:math.pi * r*r}!"

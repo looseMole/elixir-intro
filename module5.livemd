@@ -221,6 +221,6 @@ In the next code cell, you should use `generate` to produce a calendar ranging f
 
 ## Next step ...
 
-Wow, a calendar ... though primitive, that's a usable thing! And you can imaging adding weekdays and -- through rules expressed as functions, maps, lists or a combination hereof -- to add holidays and religious events.
+Wow, a calendar ... though primitive, that's a usable thing! And you can imagine adding weekdays and -- through rules expressed as functions, maps, lists or a combination hereof -- to add holidays and religious events.
 
 But lets progress to the next exercise [here](module6.livemd).

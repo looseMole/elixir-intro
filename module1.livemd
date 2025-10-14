@@ -6,7 +6,7 @@ As you have never programmed before we will start slowly.
 
 <!-- livebook:{"break_markdown":true} -->
 
-Livebook is an interactive development environment that is accessed through a browser. You work is organized in notebooks which are physically stored on the machine that hosts Livebook. You have now seen two of these; first the `Start` one and then this `Module 1` one. If such a notebook is associated with a filename then it will be automatically saved. You can make sure this is the case by ckicking on the disk/save icon in the lower right corner of this screen. No need to do it for this notebook though, as it has already been done.
+Livebook is an interactive development environment that is accessed through a browser. You work is organized in notebooks which are physically stored on the machine that hosts Livebook. You have now seen two of these; first the `Start` one and then this `Module 1` one. If such a notebook is associated with a filename then it will be automatically saved. You can make sure this is the case by clicking on the disk/save icon in the lower right corner of this screen. No need to do it for this notebook though, as it has already been done.
 
 A notebook is structured in sections. In each such section one can place cells with [markdown code](https://www.markdownguide.org/cheat-sheet/) (such as this one), Elixir code or a few other things. Markdown is a form of structured text. If you click this text and click the edit icon that then appears above it to the right, you can edit the text.
 

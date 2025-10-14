@@ -9,7 +9,7 @@ Mix.install([
 
 ## Preparation
 
-In this notebook we are going to work with anoymous functions. A function is a piece of code that takes zero or more inputs and produces an output.
+In this notebook we are going to work with anonymous functions. A function is a piece of code that takes zero or more inputs and produces an output.
 
 The following function takes exactly one input and delivers this as its output:
 
