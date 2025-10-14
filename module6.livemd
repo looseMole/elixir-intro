@@ -123,6 +123,8 @@ Create a new frame. You can optionally arrange the two frames in a grid. Start a
 1. It is sent to the first `Color` pid as before.
 2. It is also sent to the second `Color` pid, but here the value must be subtracted from $255$. So if the original value is $100$, $255-100=155$ must be sent to this pid.
 
+Add Elixir code cells as you see fit.
+
 <!-- livebook:{"break_markdown":true} -->
 
 If you have a good grasp of color theory, you can also create a third frame that shows the complementary color. But it is a bit more complicated, and you have to define a separate GenServer.
