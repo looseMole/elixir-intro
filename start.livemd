@@ -11,7 +11,7 @@ Welcome to a journey through the most simple elements of the [Elixir](https://el
 
 <!-- livebook:{"break_markdown":true} -->
 
-We will be working with Elixir through [Livebook](https://livebook.dev). This is a code editor that you essentially access through a browser. There are many ways of writing Elixir code (that doesn't involve a browser), but Livebook brings some attractive possibilities for getting an overview of the code and visualizing data.
+We will be working with Elixir through [Livebook](https://livebook.dev). This is a code editor that you essentially access through a browser. There are many ways of writing Elxir code (that doesn't involve a browser), but Livebook brings some attractive possibilities for getting an overview of the code and visualizing data.
 
 First, you will have to [install](https://livebook.dev/\#install) Livebook, and then you should configure it:
 
@@ -25,6 +25,8 @@ Next, you will need to choose between two difficulties:
 
 1. **Beginner:** If you have never programmed before you start [here](module1.livemd).
 2. **Advanced:** If you feel like you have a good feel for at least one programming language then you start [here](module8.livemd).
+
+**Hint:** Several of these notebooks lists their *dependencies* in their top cell. By evaluating that cell, you provide Livebook with the means to offer you suggestions as you write your code.
 
 <!-- livebook:{"break_markdown":true} -->
 
