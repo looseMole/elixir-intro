@@ -34,7 +34,7 @@ nil
 
 <!-- livebook:{"break_markdown":true} -->
 
-The following module implements a [GenServer](https://hexdocs.pm/elixir/GenServer.html) that can receive updates the values indicated by the three sliders that each represent a color *channel*. A GenServer is a separate process (inside of Elixir) which can be started. Once started, you can send messages to it. Received messages will be processed according to the specified logic, and this may include returning a message. In this particular case, we make sure to draw a square in the above frame. That square is colored according to the positions of the sliders. Two comments in the code indicates two types of functions:
+The following module implements a [GenServer](https://hexdocs.pm/elixir/GenServer.html) that can receive updates to the values indicated by the three sliders that each represent a color *channel*. A GenServer is a separate process (inside of Elixir) which can be started. Once started, you can send messages to it. Received messages will be processed according to the specified logic, and this may include returning a message. In this particular case, we make sure to draw a square in the above frame. That square is colored according to the positions of the sliders. Two comments in the code indicates two types of functions:
 
 1. **Interface functions:** Interface functions are those you call from the function you are in when you need the GenServer to do some work for you. This either involves starting an instance of the GenServer or sending a message to a (hopefully already started) GenServer instance.
 2. **Callback functions:** When a GenServer receives such a message, a matching callback function will be called (in the process of this GenServer).
