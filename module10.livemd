@@ -157,7 +157,7 @@ graph LR;
 
 <!-- livebook:{"break_markdown":true} -->
 
-A customer needs to be able to ask a clerk which products can be ordered. After receiving this list, a customer will order a random product from the list of offered products. Upon receiving an order, the clerk will then order a baker with the right skills (they only know how to bake a single product, remember?) to fulfill the order. The clerks keeps tract of how many orders they have completed of each product. That part is done in a separate genserver.
+A customer needs to be able to ask a clerk which products can be ordered. After receiving this list, a customer will order a random product from the list of offered products. Upon receiving an order, the clerk will then order a baker with the right skills (they only know how to bake a single product, remember?) to fulfill the order. The clerks keeps track of how many orders they have completed of each product. That part is done in a separate genserver.
 
 <!-- livebook:{"break_markdown":true} -->
 
