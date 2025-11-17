@@ -206,14 +206,14 @@ Write, in the following code cell, a module called `MyCalendar`.
 
 In this module you:
 
-* Add a function called `generate_month_lengths` that takes a year as a parameter, and -- based on this year -- it produces and returns a map of this year.
-* Add a function called `generate` that takes two parameters, namely `min_year` and `max_year`. It should iterate through the years in between these (both included), and for each year call `generate_month_lengths`. The result of this function call is used to construct a map such that you can look up a year and get the result of `generate_month_lengths`. This map from month to year-calendar is returned.
-
-In the next code cell, you should use `generate` to produce a calendar ranging from year 0 to year 3000.
+* Add a function called `generate_month_lengths` that takes a year as a parameter, and -- based on this year -- it produces and returns a map of this year (like earlier in this notebook).
+* Add a function called `generate` that takes two parameters, namely `min_year` and `max_year`. It should iterate through the years in between these (both included), and for each year call `generate_month_lengths`. The result of this function call is used to construct a map such that you can look up a year and get the result of `generate_month_lengths`. This map from year to calendar of that year is returned.
 
 ```elixir
 
 ```
+
+In the next code cell, you should use `generate` to produce a calendar ranging from year 0 to year 3000:
 
 ```elixir
 
