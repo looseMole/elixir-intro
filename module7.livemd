@@ -60,13 +60,13 @@ def first_name(person) do
 end
 ```
 
-Use the cell below to experimentally figure out how this function works. You may want to hover the mouse over some of the functions.
+Use the cell below to experimentally figure out how this function works. You may want to hover the mouse over some of the functions, but for this to work you may have to first evaluate the cell.
 
 ```elixir
 
 ```
 
-Create a new defintion of `Person` in the cell below. Start out with a copy of the above definition, and add a function called `birthday` that takes a person and returns the same person except that the returned person has an age that is one higher than that of the input person.
+Create a new defintion of `Person` under a different name in the cell below. Start out with a copy of the above definition, and add a function called `birthday` that takes a person and returns the same person except that the returned person has an age that is one higher than that of the input person.
 
 ```elixir
 
