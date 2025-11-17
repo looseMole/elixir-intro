@@ -142,7 +142,13 @@ And this code works exactly as the `map` function that is defined in `Enum`:
 
 ## Exercise
 
-In the following cell, make a copy of the contents of the cell with the definition of `MyEnum`. Add and implement your own version of the `filter` function next to the `map` function:
+In the following cell, make a copy of the contents of the cell with the definition of `MyOtherEnum`. Add and implement your own version of the `filter` function next to the `map` function:
+
+```elixir
+
+```
+
+And then test it out:
 
 ```elixir
 
