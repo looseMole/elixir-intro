@@ -16,7 +16,7 @@ elem({0, 1, 2, 3}, 2)
 
 <!-- livebook:{"break_markdown":true} -->
 
-Tuples are a good choice for holding a number of values, when that number is known when the code is written and fixed over time. But this is not always the case. Often, we wish our code to work with an arbitrary nymber of values. For this, we use a list:
+Tuples are a good choice for holding a number of values, when that number is known when the code is written and fixed over time. But this is not always the case. Often, we wish our code to work with an arbitrary number of values. For this, we use a list:
 
 ```elixir
 l = [0, 1, 2, 3, 4]
