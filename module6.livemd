@@ -12,7 +12,7 @@ Mix.install([
 
 <!-- livebook:{"break_markdown":true} -->
 
-Lets first define some slides for choosing integer values between 0 and 255 (both included), and arrange these in a "grid". We will use them to define a color through its red, green and blue components:
+Lets first define some sliders for choosing integer values between 0 and 255 (both included), and arrange these in a "grid". We will use them to define a color through its red, green and blue components:
 
 ```elixir
 kinos = [
