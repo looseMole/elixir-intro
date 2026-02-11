@@ -56,7 +56,7 @@ Elixir comes with a number of highly applicable so-called *higher-order function
 
 * `map` Applies a function to each element of a list and returns a list of the resulting values.
 * `filter` Constructs a list of all elements from an input list where an expression (in the form of a function) evaluates to `true`.
-* `reduce` Iterates through an input list, and applies a function to the combination of an initial value and the first element of the list. The it applies the same function to the result of the first application and the second value. And so on ... until the last value has been treated to the same procedure and the result of this is then returned.
+* `reduce` Iterates through an input list, and applies a function to the combination of an initial value and the first element of the list. Then it applies the same function to the result of the first application and the second value. And so on ... until the last value has been treated to the same procedure and the result of this is then returned.
 
 But let's see some examples ...
 
